@@ -3,7 +3,7 @@
 /*  -------------------------------------------------------------
     Launch Nasqueron
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
-    Author:         Dereckson
+    Author:         Sébastien Santoro aka Dereckson, Tomas Sardyha
     Filename:       app.css
     Version:        1.0
     Licence:        Creative Commons BY 3.0, BSD-2-Clause
@@ -14,6 +14,11 @@
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 
     :: Main styles
+    :: Cards
+    :: Cards content
+    :: Horizontal scrollbar
+    :: Cards slider selector
+    :: Utilities classes
 
 */
 
@@ -26,4 +31,137 @@ body {
     min-height: 150vh;
 
     background: #44484D url("../img/mountains.svg") repeat-x scroll bottom;
+}
+
+/*  -------------------------------------------------------------
+    Cards
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+.wrap {
+    position: relative;
+    margin: 3em 5vw;
+}
+
+@media screen and (max-width: 1239px) {
+    section {
+        width: 78vw;
+    }
+}
+
+@media screen and (min-width: 1240px) {
+    section {
+        width: 39vw;
+    }
+}
+
+section {
+    float: left;
+    display: inline-block;
+
+    min-height: 70vh;
+    padding: 1em !important;
+    margin: 0 5vw 0 0;
+
+    border: solid 5px #2b3441;
+}
+
+.section-odd {
+    background-color: #5587A2;
+    color: black;
+}
+
+.section-even {
+    background-color: #67947D;
+    color: black;
+}
+
+.section-third {
+    background-color: #F6D258;
+    color: black;
+}
+
+/*  -------------------------------------------------------------
+    Cards content
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+section .paragraph {
+    margin-bottom: 2.5em;
+}
+
+section p {
+    -webkit-margin-before: 0;
+}
+
+.icon {
+    color: white;
+}
+
+.section-third .icon {
+    color: #2B3441;
+}
+
+/*  -------------------------------------------------------------
+    Horizontal scrollbar
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+.scrollbar {
+    margin: 0 0 1em 0;
+    height: 2px;
+    background: #ccc;
+    line-height: 0;
+}
+
+.scrollbar .handle {
+    width: 100px;
+    height: 100%;
+    background: #292a33;
+    cursor: pointer;
+}
+
+.scrollbar .handle .mousearea {
+    position: absolute;
+    top: -9px;
+    left: 0;
+    width: 100%;
+    height: 20px;
+}
+
+/*  -------------------------------------------------------------
+    Cards slider selector
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+.pages {
+    list-style: none;
+    margin: 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+.pages li {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin: 0 4px;
+    text-indent: -999px;
+    border-radius: 10px;
+    cursor: pointer;
+    overflow: hidden;
+    background: #fff;
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,.2);
+}
+
+.pages li:hover {
+    background: #aaa;
+}
+
+.pages li.active {
+    background: #666;
+}
+
+/*  -------------------------------------------------------------
+    Utilities classes
+    - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
+
+.text-center {
+    text-align: center;
 }

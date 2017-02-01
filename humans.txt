@@ -15,8 +15,11 @@
     jQuery, Modernizr, Normalize.css
     Git, Phabricator
 
+# JAVASCRIPT LIBRARIES
 
-# MANIFESTO
+    Sly — Tomas Sardyha
+
+# NASQUERON MANIFESTO
 
     Nasqueron is a budding community of creative people, writers, developers
     and thinkers.
