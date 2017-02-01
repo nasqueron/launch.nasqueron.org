@@ -22,5 +22,8 @@
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
 
 body {
-    background-color: #44484D;
+    margin-top: 5vh;
+    min-height: 150vh;
+
+    background: #44484D url("../img/mountains.svg") repeat-x scroll bottom;
 }
