@@ -1,0 +1,33 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Sébastien Santoro -- Lead developer -- @Dereckson
+
+# THANKS
+
+
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    jQuery, Modernizr, Normalize.css
+    Git, Phabricator
+
+
+# MANIFESTO
+
+    Nasqueron is a budding community of creative people, writers, developers
+    and thinkers.
+
+    You'll find here like-minded people to connect to, hang out,
+    and build projects.
+
+    We focus on free culture, ethics and to be a positive change.
+    Our software is open source our datasources and content are licensed under
+    CC-BY-SA or CC-BY license. We share values like respect, justice and equity.
+
+    We like experiments, originality and to discover new thing.
+
+    We are Nasqueron.
