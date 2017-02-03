@@ -100,6 +100,24 @@ section p {
     color: #2B3441;
 }
 
+.call-for-action {
+    margin: 1.375em 0;
+}
+
+.call-for-action a {
+    padding: 1em;
+
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+    background-color: rgba(34, 34, 34, 0.25);
+    border: solid 5px rgba(34, 34, 34, 0.3);
+
+    color: white;
+    text-decoration: none;
+    font-variant: all-small-caps;
+}
+
 /*  -------------------------------------------------------------
     Horizontal scrollbar
     - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -    */
